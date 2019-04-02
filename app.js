@@ -6,6 +6,10 @@ app.get('/', function(req, res) {
     res.send('Hello Herky')
 })
 
+app.get('/senate', function(req, res) {
+  res.sendFile(__dirname+'/senator-results.json')
+})
+
 
 // run server in development mode
 // let hostname = 'localhost'
