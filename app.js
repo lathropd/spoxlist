@@ -7,7 +7,6 @@ app.get('/', function(req, res) {
 })
 
 
-
 // run server in development mode
 // let hostname = 'localhost'
 let port = 3000
