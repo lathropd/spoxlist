@@ -9,5 +9,7 @@ x('https://www.periodicalpress.senate.gov/press-contacts/', 'tbody tr', [{
   email: '.column-5'
 
 }])
+  .paginate('a.tablepress-3_next')
+  .limit(1)
   .write('senator-results.json')
-  
+    
